@@ -23,7 +23,6 @@ public class Automation {
         Driver.findElement(By.xpath("//div[@class=\"form-control-box city-input-box\"]/input[@class=\"form-control margin-bottom20 city-search ui-autocomplete-input\"]")).sendKeys("Pune");   
         Thread.sleep(1000);
         WebElement element5=Driver.findElement(By.xpath("//div[@class=\"form-control-box area-input-box\"]/input[@class=\"form-control margin-top15 pqlocation-plugin-area ui-autocomplete-input blur\"]"));
-        System.out.println(element5);
         element5.sendKeys("S P College");
         Thread.sleep(2000);
         WebElement element6=Driver.findElement(By.xpath("//div[@class=\"city__input-container\"]/input[@id=\"ctaClick\"]"));
